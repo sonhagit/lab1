@@ -1,0 +1,442 @@
+body {
+    margin: 0 auto;
+    background-color: lightgrey;
+  }
+  .wrapper {
+    background-color: white;
+    padding: 30px 70px;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul {
+    text-align: center;
+  }
+  #content {
+    overflow: none;
+  }
+  
+  .column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+  }
+  
+  .column1 {
+    float: left;
+  }
+  .column2 {
+    margin: 0% 3%;
+  }
+  .column3 {
+    float: right;
+    margin: 0%;
+  }
+  
+  
+  li {
+    display: inline;
+    padding: 0.5em;
+  }
+  
+  .banner, .article {
+    background-color: #efefef;
+    height: 10em;
+    margin-bottom: 1em;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+                /* comment header */
+  .header .nav .logo{
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #1E1E1E;
+    padding-right: 79px;
+  }
+  .header .nav li a{
+    padding-right: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1E1E1E;
+  }
+
+.header .top-icon li{
+    padding-left: 51px;
+}
+                     /* banner */
+.banner{
+    position: relative;
+    background: #C1DCDC;
+    height: 521px;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+}
+.banner .hero .title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 76px;
+    line-height: 64px;
+    color: #000000;
+    padding-left: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 48px;
+    width: 512px;
+    height: 128px;
+    
+}
+.banner .hero .table {
+    display: flex;
+    text-align: left;
+    padding-top: 48px;
+    padding-left: 48px;
+    border-collapse: collapse;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0;
+    padding-bottom: 48px;
+}
+.banner .hero .table h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E1E1E;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.banner .hero .table p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1E1E1E;
+    margin-top: 0;
+}
+
+.search-input {
+  border-radius: 12px;
+  text-indent: 20px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.search-input:focus {
+  border-color: #56c9c9;
+  box-shadow: 0 0 8px 0 #6deaea;
+}
+.input-with-icon {
+  margin: 12px auto;
+  position: relative;
+  width: 450px;
+  height: 64px;
+}
+.search-icon {
+  padding: 14px;
+  margin: 8px;
+  right: 0;
+  background-color: #C1DCDC;
+  border-radius: 12px;
+  position: absolute;
+}
+  .content .img-hero{
+    padding: 56px;
+  }
+  .img-hero img{
+    height: 100%;
+    padding-right: 56px;
+  }
+
+                      /* best sale */
+  .seller{
+    width: 100%;
+    height: 918px;
+    display: flex;
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    align-items: stretch;
+  }
+  .seller .title-seller{
+    /* flex-grow: 4; */
+    float: left;
+    width: 30%;
+  }
+  .title-seller h2{
+    width: 256px;
+    height: 96px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    color: #1E1E1E;
+    margin: 0;
+    padding-bottom: 12px;
+  }
+.title-seller p{
+  width: 196px;
+  height: 81px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+  margin: 0;
+  padding-bottom: 24px;
+}
+.seller-btn{
+  display: inline-block;
+  min-width: 98px;
+  background: #C1DCDC;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;;
+  line-height: 27px;
+  text-align: center;
+  color: #1E1E1E;
+  padding: 12px 35px;
+}
+
+  
+  .seller .img-seller{
+    /* flex-grow: 6; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 10px 20px;
+    row-gap: 22px;
+    column-gap: 305px; */
+    float:right;
+    width: 70%;
+  }
+
+  .seller img{
+    width: 299px;
+    height: 363px;
+  }
+
+  .seller .img-seller .name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1E1E1E;
+    
+  }
+.seller .img-seller .price{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: rgba(30, 30, 30, 0.5);
+}
+/* ---------------------about-------------------- */
+.about{
+  margin: 0;
+  height: 413px;
+  width: 100%;
+}
+.about .about-text{
+  text-align: center;
+}
+.about-text h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #1E1E1E;
+margin: 0;
+padding-bottom: 12px;
+}
+.about-text p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: rgba(30, 30, 30, 0.5);
+margin: 0;
+}
+
+
+.about .about-us{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us .about-all{
+  text-align: center;
+  margin: 0;
+  padding-top: 48px;
+}
+.about-all .about-img{
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 40px;
+  padding: 56px;
+  text-align: center;
+  background-color: #C1DCDC;
+  border-radius: 50%;
+}
+.about-all .about-img-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+margin: 0;
+padding-top: 24px;
+}
+.about-all .about-img-support{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  margin: 0;
+  color: rgba(30, 30, 30, 0.5);
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 12px;
+  width: 400px;
+  height: 54px;
+}
+
+/* ---------------------------categories-------------------------------- */
+.categories{
+  margin: 0;
+  padding-top: 66px;
+  width: 100%;
+  height: 1069px;
+}
+.categories .categories-content h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+margin: 0;
+color: #1E1E1E;
+text-align: center;
+
+}
+.categories .categories-content p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+  text-align: center;
+  margin: 0;
+  padding-bottom: 96px;
+}
+.categories .categories-content2{
+  margin-top: 0;
+  margin-bottom: 0;
+  /* margin-right: ; */
+  height: 841px;
+  width: 100%;
+  background-color: #C1DCDC;
+  display: flex;
+  justify-content: space-between;
+
+}
+.categories .categories-content2 .img-categories{
+  text-align: center;
+}
+.img-categories img{
+  width: 352px;
+  height: 521px;
+  border-radius: 2%;
+  padding-top: 48px;
+}
+.img-categories p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+color: #1E1E1E;
+margin: 0;
+padding-top: 12px;
+}
+.categories-btn{
+  display: inline-block;
+  min-width: 98px;
+  background: #efefef;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;;
+  line-height: 27px;
+  text-align: center;
+  color: #1E1E1E;
+  padding: 12px 35px;
+}
+.img-categories-center{
+  text-align: center;
+}
+.img-categories-center .content1 p{
+  margin: 0;
+  padding-top: 12px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+  padding-bottom: 24px;
+  width: 352px;
+  height: 54px;
+}
+
+.categories .img-left{
+margin-top: -96px;
+}
+
+
+/* ---------------say------------------- */
+.say{
+  margin: 0;
+}
+.say .say-title{
+  width: 40%;
+  height: 96px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  padding-top: 39px;
+}
+
+.say-title h2{
+  margin: 0;
+}
